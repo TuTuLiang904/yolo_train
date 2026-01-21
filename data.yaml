@@ -1,0 +1,12 @@
+# 注意：Windows路径建议用反斜杠 / 或者双斜杠 \\
+path: yolo_dataset  # 指向刚才脚本生成的文件夹
+train: images/train
+val: images/val
+
+# 类别设置 (严格对应之前确认的顺序)
+nc: 4
+names:
+  0: red_cube
+  1: blue_cube
+  2: green_cube
+  3: pink_cube
